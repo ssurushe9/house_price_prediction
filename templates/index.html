@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOUSE PRICE PREDICTION</title>
+</head>
+<body bgcolor="powderblue">
+
+    <h1>HOUSE PRICE PREDICTION MODEL</h1>
+
+    <form action="/predict_house_price">
+        <label>transaction_date: </label><input type="number" step="any" name="transaction_date"><br><br>
+        <label>house_age: </label><input type="number" step ="any" name="house_age"><br><br>
+        <label>distance_to_the_nearest_MRT_station: </label><input type="number" step= "any" name="distance_to_the_nearest_MRT_station"><br><br>
+        <label>number_of_convenience_stores: </label><input type="number" step="any" name="number_of_convenience_stores"><br><br>
+        <label>latitude: </label><input type="number" step="any" name="latitude"><br><br>
+        <label>longitude: </label><input type="number" step="any" name="longitude"><br><br>
+
+        <input type="submit" value="Predict_Price">
+
+        <h3>{{PREDICT_Price}}</h3>
+
+
+
+    </form>
+</body>
+</html>
+    
+</body>
+</html>
